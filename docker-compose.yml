@@ -1,0 +1,12 @@
+version: "3"
+services:
+  app:
+    container_name: BTP
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - mongodb+srv://amirhoseinfj:sa9avcsHWeT61u7M@amoolinux.mimk6ci.mongodb.net/?retryWrites=true&w=majority
+    volumes:
+      - .:/code
+    command: python /code/server.py
