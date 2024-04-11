@@ -16,7 +16,6 @@ In contrast to (main competitive alternative): Manual booking procedures or trad
 Our product (statement of primary differentiation): It sets itself apart by utilizing Agile methodologies to guarantee ongoing development and alignment with user needs, putting security and privacy first through strong encryption and authentication mechanisms, and adopting a microservices architecture for scalability and flexibility.
 
 
-https://www.youtube.com/watch?v=XCw0osnII-Q
 
 
 Software Architecture: The restaurant reservation system is made up of a number of loosely linked microservices, each of which is in charge of performing certain functions including notification processing, reservation management, and user authentication. This design allows for the independent deployment and scaling of separate services, which improves maintainability and scalability.
